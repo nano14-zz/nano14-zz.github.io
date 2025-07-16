@@ -1,0 +1,522 @@
+#cuerpo-inicial{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b87100;
+    color: #333;
+}
+
+.header-container {
+    background-color: #2c3e50;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-container h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 2.5em;
+    color: white;
+    background-color: #3498db;
+    border: 2px solid #1abc9c;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 0 10px #1abc9c, 0 0 20px #1abc9c;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.header-container h1:hover {
+    background-color: #2980b9;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.image-section {
+    text-align: center;
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1546519638-68e109498ffc?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFza2V0YmFsbCUyMHdhbGxwYXBlcnxlbnwwfHwwfHx8MA%3D%3D);
+   
+    background-position: center;
+
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.nav-menu {
+    background-color: #3498db;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-menu a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-menu a:hover {
+    background-color: #1abc9c;
+}
+
+.content-section {
+    padding: 20px;
+    background-color: white;
+    text-align: justify;
+}
+
+.content-section p {
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+.video-section {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.footer-container {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+#basketball-image {
+    width: 300px;
+    height: 300px;
+}
+
+#intro-text {
+    font-weight: bold;
+}
+
+
+
+
+#cuerpo-jugadores-destacados {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff3e0;
+    color: #4a2c5b;
+}
+
+.cabecera-jugadores {
+    background-color: #6a1b9a;
+    text-align: center;
+    padding: 25px;
+}
+
+.cabecera-jugadores h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 15px 35px;
+    font-size: 2.8em;
+    color: #ffffff;
+    background-color: #f57c00;
+    border: 3px solid #ffca28;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 15px #ffca28, 0 0 25px #ffca28;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cabecera-jugadores h1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.seccion-imagen-jugadores {
+    text-align: center;
+    padding: 25px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/06/Steph_Curry_%2851915116957%29.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.seccion-imagen-jugadores img {
+    
+    
+    border: 2px solid #6a1b9a;
+    border-radius: 10px;
+}
+
+.menu-navegacion-jugadores {
+    background-color: #f57c00;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu-navegacion-jugadores a {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 12px 25px;
+    background-color: #6a1b9a;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.menu-navegacion-jugadores a:hover {
+    background-color: #ffca28;
+    transform: translateY(-3px);
+}
+
+.contenido-jugadores {
+    padding: 25px;
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+.contenido-jugadores p {
+    line-height: 1.7;
+    margin: 20px 0;
+}
+
+.contenido-jugadores h2, .contenido-jugadores h3, .contenido-jugadores h4,
+.contenido-jugadores h5, .contenido-jug —adores h6, .contenido-jugadores h7,
+.contenido-jugadores h8, .contenido-jugadores h9, .contenido-jugadores h10 {
+    color: #6a1b9a;
+    margin-top: 30px;
+}
+
+.contenido-jugadores img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #f57c00;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+.boton-regresar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    width: 1000px;
+    padding: 12px 25px;
+    background-color: #6a1b9a;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.boton-regresar:hover {
+    background-color: #ffca28;
+    transform: translateY(-3px);
+}
+
+#imagen-michael-jordan, #imagen-larry-bird, #imagen-magic-johnson,
+#imagen-kareem-abdul-jabbar, #imagen-kobe-bryant, #imagen-isiah-thomas,
+#imagen-wilt-chamberlain, #imagen-bill-russell, #imagen-julius-erving,
+#imagen-jerry-west, #imagen-nba {
+    width: 450px;
+    height: auto;
+}
+
+#texto-michael-jordan, #texto-larry-bird, #texto-magic-johnson,
+#texto-kareem-abdul-jabbar, #texto-kobe-bryant, #texto-isiah-thomas,
+#texto-wilt-chamberlain, #texto-bill-russell, #texto-julius-erving,
+#texto-jerry-west, #texto-conclusion {
+    font-weight: normal;
+}
+
+#titulo-jugadores {
+    font-weight: bold;
+}
+
+
+
+
+
+
+#cuerpo-equipos{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #004d40;
+}
+
+.cabecera-equipos {
+    background-color: #00695c;
+    text-align: center;
+    padding: 20px;
+}
+
+.cabecera-equipos h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 2.6em;
+    color: #ffffff;
+    background-color: #ff7043;
+    border: 3px solid #26a69a;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 0 12px #26a69a, 0 0 24px #26a69a;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.cabecera-equipos h1:hover {
+    background-color: #d81b60;
+    transform: rotate(2deg);
+}
+
+.seccion-imagen-equipos {
+    text-align: center;
+    padding: 20px;
+    background-image: url(https://img.freepik.com/vector-gratis/diseno-fondo-liga-partido-baloncesto-estilo-deportivo_1017-44908.jpg?semt=ais_items_boosted&w=740);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+.seccion-imagen-equipos img {
+    
+    height: auto;
+    border: 2px solid #ff7043;
+    border-radius: 12px;
+}
+
+.menu-navegacion-equipos {
+    background-color: #ff7043;
+    padding: 12px;
+    text-align: center;
+}
+
+.menu-navegacion-equipos a {
+    display: inline-block;
+    margin: 0 18px;
+    padding: 10px 22px;
+    background-color: #00695c;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-shadow: 0 0 8px #26a69a;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.menu-navegacion-equipos a:hover {
+    background-color: #26a69a;
+    transform: scale(1.1);
+}
+
+.contenido-equipos {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+.contenido-equipos p {
+    line-height: 1.8;
+    margin: 18px 0;
+}
+
+.contenido-equipos h2, .contenido-equipos h3, .contenido-equipos h4,
+.contenido-equipos h5, .contenido-equipos h6, .contenido-equipos h7,
+.contenido-equipos h8, .contenido-equipos h9 {
+    color: #ff7043;
+    margin-top: 25px;
+    text-shadow: 0 0 8px #26a69a;
+}
+
+.contenido-equipos img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #00695c;
+    border-radius: 12px;
+    display: block;
+    margin: 18px auto;
+}
+
+.boton-regresar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 850px;
+margin: 10px auto;
+
+        padding: 10px 22px;
+    background-color: #00695c;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-shadow: 0 0 8px #26a69a;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.boton-regresar:hover {
+    background-color: #26a69a;
+    transform: scale(1.1);
+}
+
+#imagen-boston-celtics, #imagen-lakers, #imagen-bulls, #imagen-warriors,
+#imagen-spurs, #imagen-heat, #imagen-pistons, #imagen-76ers {
+    width: 300px;
+    height: 300px;
+}
+
+#texto-boston-celtics-1, #texto-boston-celtics-2, #texto-boston-celtics-3,
+#texto-boston-celtics-4, #texto-lakers-1, #texto-lakers-2, #texto-lakers-3,
+#texto-lakers-4, #texto-bulls-1, #texto-bulls-2, #texto-bulls-3,
+#texto-warriors-1, #texto-warriors-2, #texto-warriors-3, #texto-spurs-1,
+#texto-spurs-2, #texto-spurs-3, #texto-heat-1, #texto-heat-2, #texto-heat-3,
+#texto-pistons-1, #texto-pistons-2, #texto-pistons-3, #texto-76ers-1,
+#texto-76ers-2 {
+    font-weight: normal;
+}
+
+#titulo-equipos {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+#cuerpo-reglas {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d1b2a;
+    color: #e0e1dd;
+}
+
+.cabecera-reglas {
+    background-color: #1b263b;
+    text-align: center;
+    padding: 20px;
+}
+
+.cabecera-reglas h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 2.7em;
+    color: #ffffff;
+    background-color: #00ff7f;
+    border: 3px solid #00cc00;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 255, 127, 0.5);
+    text-shadow: 0 0 10px #00ff7f, 0 0 20px #00ff7f;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.cabecera-reglas h1:hover {
+    background-color: #00cc00;
+    transform: translateY(-5px);
+}
+
+.menu-navegacion-reglas {
+    background-color: #00ff7f;
+    padding: 12px;
+    text-align: center;
+}
+
+.menu-navegacion-reglas a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 20px;
+    background-color: #1b263b;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-shadow: 0 0 8px #00ff7f;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.menu-navegacion-reglas a:hover {
+    background-color: #00cc00;
+    transform: translateY(-3px);
+}
+
+.contenido-reglas {
+    padding: 20px;
+    background-color: #1b263b;
+    text-align: justify;
+}
+
+.contenido-reglas p {
+    line-height: 1.8;
+    margin: 15px 0;
+}
+
+.contenido-reglas h2, .contenido-reglas h3, .contenido-reglas h4,
+.contenido-reglas h5, .contenido-reglas h6, .contenido-reglas h7,
+.contenido-reglas h8, .contenido-reglas h9, .contenido-reglas h10,
+.contenido-reglas h11 {
+    color: #00ff7f;
+    margin-top: 25px;
+    text-shadow: 0 0 8px #00cc00;
+}
+
+.boton-regresar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+    width: 950px;
+
+
+
+    padding: 10px 20px;
+    background-color: #1b263b;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-shadow: 0 0 8px #00ff7f;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.boton-regresar:hover {
+    background-color: #00cc00;
+    transform: translateY(-3px);
+}
+
+#texto-duracion-1, #texto-duracion-2, #texto-duracion-3,
+#texto-equipos-1, #texto-equipos-2, #texto-equipos-3,
+#texto-inicio-1, #texto-inicio-2, #texto-inicio-3,
+#texto-tiempo-1, #texto-tiempo-2, #texto-tiempo-3, #texto-tiempo-4,
+#texto-movimiento-1, #texto-movimiento-2, #texto-movimiento-3, #texto-movimiento-4, #texto-movimiento-5,
+#texto-faltas-1, #texto-faltas-2, #texto-faltas-3, #texto-faltas-4, #texto-faltas-5,
+#texto-faltas-6, #texto-faltas-7, #texto-faltas-8, #texto-faltas-9,
+#texto-puntuacion-1, #texto-puntuacion-2, #texto-puntuacion-3,
+#texto-rebotes-1, #texto-rebotes-2,
+#texto-saques-1, #texto-saques-2,
+#texto-tiros-libres-1, #texto-tiros-libres-2, #texto-tiros-libres-3 {
+    font-weight: normal;
+}
+
+#titulo-reglas {
+    font-weight: bold;
+}
